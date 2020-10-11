@@ -25,10 +25,10 @@ public class QuadraticEquation {
       double answer = -numberC/numberB;
       System.out.println("x = " + answer);
     }
-    else if (numberB == 0 && numberC != 0) {
+    else if (numberB == 0 & numberC != 0) {
       System.out.println("No values");
     }
-         else if (numberB == 0 && numberC == 0) {
+         else if (numberB == 0 & numberC == 0) {
       System.out.println("Many values");
     }
   }
