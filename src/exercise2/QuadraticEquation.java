@@ -14,8 +14,8 @@ public class QuadraticEquation {
       if (discr >= 0) {
         double answer1 = (-numberB + Math.sqrt(discr)) / (2*numberA);
         double answer2 = (-numberB - Math.sqrt(discr)) / (2*numberA);
-        System.out.println("x1 = " + answer1);
-        System.out.println("x2 = " + answer2);
+        System.out.println(answer1+", "+answer2);
+      
       }
       else {
           System.out.println("Imaginary values");
